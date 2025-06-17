@@ -10,11 +10,11 @@ class FitnessCenter:
                 f"month={self.month}, duration={self.duration})\n")
 
 fitness_centers = [
-    FitnessCenter(client_code="001", year=2025, month=1, duration=30),
-    FitnessCenter(client_code="002", year=2025, month=2, duration=15),
-    FitnessCenter(client_code="003", year=2025, month=3, duration=34),
-    FitnessCenter(client_code="004", year=2025, month=4, duration=50),
-    FitnessCenter(client_code="005", year=2025, month=5, duration=70)
+    FitnessCenter("001", 2025, 1, 30),
+    FitnessCenter("002", 2025, 2, 15),
+    FitnessCenter("003", 2025, 3, 34),
+    FitnessCenter("004", 2025, 4, 50),
+    FitnessCenter("005", 2025, 5, 70)
 ]
 
 longest_session = fitness_centers[0]
